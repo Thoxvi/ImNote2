@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">我叫Note</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="edit">编辑</string>
+    <string name="remindAll">提醒全部</string>
+    <string name="live">卡片本</string>
+    <string name="dead">回收站</string>
+    <string name="achievement">成就</string>
+    <string name="share">分享</string>
+    <string name="send">反馈</string>
+    <string name="other">其他</string>
+    <string name="title">标题</string>
+    <string name="content">内容</string>
+    <string name="record">快速记录</string>
+    <string name="StartClipListener">开启监听剪贴板</string>
+    <string name="StopClipListener">关闭监听剪贴板</string>
+    <string name="tools">小功能</string>
+    <string name="about">关于</string>
+    <string name="appVersion">APP版本：</string>
+    <string name="killall">清空回收站</string>
+</resources>

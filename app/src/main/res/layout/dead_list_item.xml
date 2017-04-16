@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/CardMargin"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:contentPaddingLeft="@dimen/Cardpadding"
+    app:contentPaddingRight="@dimen/Cardpadding"
+    app:contentPaddingTop="@dimen/Cardpadding">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dead_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/CardMargin"
+            android:text="标题"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/h1Size" />
+
+        <TextView
+            android:id="@+id/dead_item_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="内容\n内容\n内容"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/dead_item_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="时间" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dead_item_relive"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="恢复" />
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

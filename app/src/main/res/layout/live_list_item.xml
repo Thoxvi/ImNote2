@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/CardMargin"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:transitionName="TRANSITION_ACTIVITY_EDIT"
+    app:contentPaddingLeft="@dimen/Cardpadding"
+    app:contentPaddingRight="@dimen/Cardpadding"
+    app:contentPaddingTop="@dimen/Cardpadding">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/live_item_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingBottom="@dimen/CardMargin"
+            android:text="标题"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/h1Size" />
+
+        <TextView
+            android:id="@+id/live_item_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="内容\n内容\n内容"
+            android:textColor="@color/colorBlack" />
+
+        <TextView
+            android:id="@+id/live_item_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="时间" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/live_item_remind"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="提醒" />
+
+            <Button
+                android:id="@+id/live_item_top"
+                style="?attr/borderlessButtonStyle"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="+1"
+                android:textSize="@dimen/h4Size" />
+
+            <!--<ImageButton-->
+            <!--android:id="@+id/live_item_more"-->
+            <!--style="?attr/borderlessButtonStyle"-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--android:src="@mipmap/ico_more" />-->
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

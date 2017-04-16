@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_live"
+            android:checked="true"
+            android:icon="@mipmap/ico_live"
+            android:title="@string/live" />
+        <item
+            android:id="@+id/nav_dead"
+            android:icon="@mipmap/ico_dead"
+            android:title="@string/dead" />
+        <item
+            android:id="@+id/nav_achievement"
+            android:icon="@mipmap/ico_achi"
+            android:title="@string/achievement" />
+    </group>
+
+
+    <item android:title="@string/tools">
+        <menu>
+            <item
+                android:id="@+id/nav_remind"
+                android:icon="@mipmap/ico_remindall"
+                android:title="@string/remindAll" />
+            <item
+                android:id="@+id/nav_cliplistener"
+                android:icon="@mipmap/ico_cliplistener"
+                android:title="@string/StartClipListener" />
+        </menu>
+
+    </item>
+    <item android:title="@string/other">
+        <menu>
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/ico_about"
+                android:title="@string/about" />
+        </menu>
+    </item>
+
+</menu>
